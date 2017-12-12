@@ -1,0 +1,21 @@
+server {
+	listen 80 default_server;
+	root /home/pratik/Documents/GOT-angularJS-master;
+	index index.html;
+		
+		#Error 404
+		error_page 404 /404.html;
+		location = /404.html{
+			root /home/pratik/Documents/GOT-angularJS-master;
+			internal;
+			
+				}
+	
+		#Error 500
+		error_page 500 /500.html;
+		location= /500.html{
+			root /home/pratik/Documents/GOT-angularJS-master;
+			interal;
+	
+				}
+}
