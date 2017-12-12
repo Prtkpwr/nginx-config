@@ -13,9 +13,9 @@ server {
 	
 		#Error 500
 		error_page 500 /500.html;
-		location= /500.html{
+		location = /500.html{
 			root /home/pratik/Documents/GOT-angularJS-master;
-			interal;
+			internal;
 	
 				}
 }
